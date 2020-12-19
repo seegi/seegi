@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    background-color: #595959;
+    width: 100%;
+    
+}
+header {
+    background-color: rgba(194, 189, 189, 0.966);;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 1rem;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: 2px solid rgb(112, 109, 98);
+    font-family: 'Sofia', cursive;
+}
+header span {
+    text-transform: uppercase;
+}
+.container {
+    width: 90%;
+    /*background-color: whitesmoke;*/
+    margin: 0 auto;
+    top: 0;
+}
+.content {
+    background-color: rgba(241, 236, 236, 0.966);
+    border: 2px soliid whitesmoke;
+    margin-bottom: 1rem;
+    font-family: 'EB Garamond', serif;
+}
+/*.content h3 {
+    margin-top: 10px;
+    padding-left: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+}*/
+.cont{
+    display: flex;
+
+}
+.name {
+    align-items: center;
+    flex: 1;
+    padding-left: 20px;
+    margin-top: 60px;
+}
+.contact {
+    border: 1px solid whitesmoke;
+    
+}
+.image {
+    flex: 1;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+.dev {
+    animation-name: web;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes web {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@media (min-width:768px) {
+    header {
+        font-size: x-large;
+    }
+    .name {
+        font-size: x-large;
+        margin-left: 4rem;
+        margin-top: 9rem;
+    }
+    .content h3 {
+        padding-top: 0.5rem;
+        padding-left: 2rem;
+        font-weight: bolder;
+        font-style: italic;
+        font-size: large;
+    }
+    button {
+        font-size: larger;
+    }
+    .about-pic {
+        flex: 1;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+    }
+    .about-info {
+        flex: 2;
+        margin-left: 2rem;
+        margin-right: 1rem;
+    }
+    .about-info h4 {
+        font-size: 1.3rem;
+    }
+    .about-info p {
+        font-size: 1.2rem;
+    }
+    footer {
+        height: 3rem;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .p {
+        padding-left: 1rem;
+    }
+    footer ul {
+        display: inline-flex;
+        flex-flow: row nowrap;
+    }
+    footer li {
+        margin-left: 10px;
+        padding-right: 1rem;
+        display: inline-block;
+    }
+}
+.my-about {
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+.my-about h1 {
+    text-align: center;
+    margin-bottom: 0;
+    color: rgb(235, 235, 235);
+    font-family: 'EB Garamond', serif;
+
+}
+.about {
+    background-color: rgba(241, 236, 236, 0.966);
+    padding: 1rem;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-pic {
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+.about-info {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-info p {
+    position: relative;
+    left: 25px;
+    bottom: 12px;
+    padding: 1rem;
+    font-size: 1.05rem;
+    /*font-weight: bold;
+    font-family: 'EB Garamond', serif;*/
+    font-family: sans-serif;
+
+}
+.my-cert {
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+.my-cert h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+.cert {
+    background-color: rgba(241, 236, 236, 0.966);
+    display: flex;
+    padding: 1rem;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.cert img {
+    max-width: 45%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+footer {
+    background-color: rgba(194, 189, 189, 0.966);
+    padding: 10px;
+    border-top: 2px solid rgb(112, 109, 98);
+    text-align: center;
+    font-weight: bold;
+    font-family: serif;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+footer li {
+    list-style: none;
+}
+footer li a {
+    text-decoration: none;
+}
+footer li a:link {
+    color: inherit;
+}
+footer li a:visited {
+    color: inherit;
+}
+footer li a:hover {
+    color: rgb(109, 60, 109);
+}
